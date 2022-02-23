@@ -19,6 +19,16 @@ body {
 h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 }
+
+hr {
+	display: block;
+	width: 100%;	
+	border: 0;
+
+	height: 1px;
+	background-color: #e5e5e5;
+	margin: 40px 0;
+}
 /* CONTAIER */
 .container {
 	width: 100%;
@@ -226,7 +236,7 @@ h1, h2, h3, h4, h5, h6 {
 .section_header {
 	width: 100%;
 	max-width: 950px;
-	margin: 0 auto 40px;
+	margin: 0 auto 50px;
 
 	text-align: center;
 }
@@ -353,6 +363,45 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 14px;
 	text-transform: uppercase;
 }
+
+/* SERVICES */
+.services {
+	display: flex;
+}
+
+.services_item {
+	flex: 1 1 0;
+	padding-right: 35px;
+	padding-left: 85px;
+	position: relative;
+}
+.services_icon {
+	position: absolute;
+	top: 0;
+	left: 28px;
+	z-index: 1;
+}
+
+.services_title {
+	margin-bottom: 10px;
+
+	font-size: 14px;
+	color: #333;
+	text-transform: uppercase;
+}
+
+.services_text {
+	font-size: 15px;
+	color: #999;
+}
+
+
+
+
+
+
+
+
 
 
 
