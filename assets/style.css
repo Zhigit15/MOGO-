@@ -431,15 +431,20 @@ hr {
 .wedo_item {
 	width: 50%;
 }
+
 .we_img {
 	max-width: 100%;
 	width: 570px;
 	height: 380px;
 }
-
 /* ACCORDION */
 .accordion_item {
 	border: 1px solid #e5e5e5;
+}
+
+.accordion_item.active
+.accordion_content {
+	display: block;
 }
 
 .accordion_header {
@@ -458,11 +463,12 @@ hr {
 	border-right: 2px solid #ccc;
 
 	position: absolutet;
-	top: 50px;
+	top: 50%;
 	right: 20px;
 	z-index: 1;
 
-	transform: translateY(-50%);
+	transform: translateY(-50%)
+	rotate(-45deg);
 }
 
 .accordion_icon {
@@ -488,4 +494,41 @@ hr {
 	font-style: italic;
 	font-weight: 300;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
