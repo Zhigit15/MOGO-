@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="assets/style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +13,7 @@
 </head>
 <body>
 
-	<header class="header">
+	<header class="header active">
 		<div class="container">
 			<div class="header_inner">
 				<div class="header_logo">MoGo</div>
@@ -23,9 +24,17 @@
 					<a class="nav_link" href="#">Work</a>
 					<a class="nav_link" href="#">Contact</a>
 				</nav>
+
+				<button class="nav_toggle active" type="button">
+					<span class="nav_toggle_item">Menu</span>
+				</button>
+
 			</div>
 		</div>
 	</header>
+
+
+	<div class="page">
 
 	<div class="intro">
 		<div class="container">
@@ -42,19 +51,19 @@
 				<div class="slider_inner">
 						<div class="slider_item active">
 							<span class="slider_num">01</span>
-							Intro
+							<span class="slider_text">Intro</span>
 						</div>
 						<div class="slider_item">
 							<span class="slider_num">02</span>
-							Work
+							<span class="slider_text">Work</span>
 						</div>
 						<div class="slider_item">
 							<span class="slider_num">03</span>
-							About
+							<span class="slider_text">About</span>
 						</div>
 						<div class="slider_item">
 							<span class="slider_num">04</span>
-							Contacts
+							<span class="slider_text">Contacts</span>
 						</div>
 					</div>
 				</div>
@@ -136,31 +145,27 @@
 			<h2 class="section_title">Amazing Services</h2>
 		</div>
 
-		<div class="services">
-			<div class="services_item">
+		<div class="services services_item_border">
+			<div class="services_item services_item_border">
 				<img class="services_icon" src="assets/imgs//services/ALARM.svg" alt="#">
 
 				<div class="services_title">Photography</div>
 				<div class="services_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</div>
 			</div>
-				<div class="services_item">
+				<div class="services_item services_item_border">
 					<img class="services_icon" src="assets/imgs/services/LINE GRAPH.svg" alt="#">
 
 					<div class="services_title">Web Design</div>
 					<div class="services_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</div>
 				</div>
-				<div class="services_item">
+				<div class="services_item services_item_border">
 					<img class="services_icon" src="assets/imgs//services/COMPUTER _ OK.svg" alt="#">
 
 					<div class="services_title">Creativity</div>
 					<div class="services_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</div>
 				</div>
-		</div>
 
-		<hr>
-
-		<div class="services">
-			<div class="services_item">
+					<div class="services_item">
 				<img class="services_icon" src="assets/imgs//services/BOOK 2.svg" alt="#">
 
 				<div class="services_title">seo</div>
@@ -257,7 +262,7 @@
 			<a href="#" class="reviews_btn reviews_btn_prev ">Prev</a>
 			<a href="#" class="reviews_btn reviews_btn_next">Next</a>
 			<div class="reviews_item">
-				<img class="reviews_img" src="assets/imgs/SPEECH 4.png" alt="">
+				<img class="reviews_img" src="assets/imgs/avatar.png" alt="">
 				<div class="reviews_text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</div>
 				<div class="reviews_author">Jon Doe</div>
 			</div>			
@@ -369,22 +374,22 @@
 		
 		<div class="logos">
 			<div class="logos_item">
-				<img src="assets/imgs/logos/1.png" alt="">
+				<img class="logos_img" src="assets/imgs/logos/1.png" alt="">
 			</div>
 			<div class="logos_item">
-				<img src="assets/imgs/logos/2.png" alt="">
+				<img class="logos_img" src="assets/imgs/logos/2.png" alt="">
 			</div>
 			<div class="logos_item">
-				<img src="assets/imgs/logos/3.png" alt="">
+				<img class="logos_img" src="assets/imgs/logos/3.png" alt="">
 			</div>
 			<div class="logos_item">
-				<img src="assets/imgs/logos/4.png" alt="">
+				<img class="logos_img" src="assets/imgs/logos/4.png" alt="">
 			</div>
 			<div class="logos_item">
-				<img src="assets/imgs/logos/5.png" alt="">
+				<img class="logos_img" src="assets/imgs/logos/5.png" alt="">
 			</div>
 			<div class="logos_item">
-				<img src="assets/imgs/logos/6.png" alt="">
+				<img class="logos_img" src="assets/imgs/logos/6.png" alt="">
 			</div>
 		</div>
 
@@ -475,12 +480,12 @@
 <div class="section">
 	<div class="container">
 		
-		<div class="reviews2">
-			<a href="#" class="reviews_btn2 reviews_btn_prev2 ">Prev</a>
-			<a href="#" class="reviews_btn2 reviews_btn_next2">Next</a>
-			<div class="reviews_item2">
-				<img class="reviews_img2" src="assets/imgs/avatar.png" alt="">
-				<div class="reviews_text2">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</div>
+		<div class="reviews">
+			<a href="#" class="reviews_btn reviews_btn_prev ">Prev</a>
+			<a href="#" class="reviews_btn reviews_btn_next">Next</a>
+			<div class="reviews_item">
+				<img class="reviews_img" src="assets/imgs/avatar.png" alt="">
+				<div class="reviews_text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</div>
 				<div class="reviews_author2">Jon Doe</div>
 			</div>			
 		</div>
@@ -772,6 +777,8 @@
 	</div>
 </footer>
 
+
+</div> <!-- PAGE -->
 
 </body>
 </html>
